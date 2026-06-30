@@ -61,6 +61,4 @@ The dashboard uses standard SuperStore fields: Order Date, Ship Date, Ship Mode,
 - **Change the palette:** colors are defined as CSS variables (`--navy`, `--teal`, `--amber`, `--red`, `--gold`) near the top of the `<style>` block.
 - **Add a chart:** follow the existing pattern — add a `<canvas>` card to the HTML, then a `render...()` function in the script that reads from the filtered dataset and calls `upsertChart()`.
 
-## License
 
-MIT — feel free to use and adapt for your own reporting needs.
